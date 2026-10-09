@@ -1,0 +1,1 @@
+return run data modify storage nofly:cancel_rocket player.uuid set from entity @s Owner

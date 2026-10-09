@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:flags": {
+              "is_fall_flying": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nofly:is_flying"
+  }
+}

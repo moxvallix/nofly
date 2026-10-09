@@ -1,0 +1,1 @@
+playsound minecraft:entity.item.break ambient @s ~ ~ ~
